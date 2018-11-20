@@ -1,0 +1,309 @@
+@charset "utf-8";
+body {
+    background-image: url(../images/1-1024x683.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    width: 960px;
+    text-align: center;
+    margin-top: 11px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0px;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 90px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+	
+	
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-image: -webkit-linear-gradient(270deg,rgba(244,241,241,0.54) 0%,rgba(108,122,172,0.63) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(244,241,241,0.54) 0%,rgba(108,122,172,0.63) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(244,241,241,0.54) 0%,rgba(108,122,172,0.63) 100%);
+    background-image: linear-gradient(180deg,rgba(244,241,241,0.54) 0%,rgba(108,122,172,0.63) 100%);	
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.regFormItem {
+    display: table;
+    margin: 10px auto;
+    text-decoration: none;
+    min-width: 250px;
+}
+article {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+.contentBox iframe {
+    width: 550px;
+    height: 300px;
+}
+
+
+
+
+.regBoxItem {
+    width: 400px;
+    margin: 15px;
+    float: left;
+}
+.mainContainer {
+    margin-top: 62px;
+    position: absolute;
+    width: 960px;
+    
+}
+
+.regBox {
+    margin-top: 0px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: auto;
+    text-align: center;
+    display: inherit;
+    color: #FFFFFF;
+    text-shadow: 1px 0px #FFFFFF;
+    border-radius: 24px;
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(38,17,17,0.56) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(38,17,17,0.56) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(38,17,17,0.56) 100%);
+    background-image: linear-gradient(180deg, rgba(255,255,255,1.00) 0%, rgba(38,17,17,0.56) 100%);
+    float: right;
+    width: 860px;
+}
+.regBox:hover {
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(198,198,198,0.73) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(198,198,198,0.73) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(198,198,198,0.73) 100%);
+    background-image: linear-gradient(180deg, rgba(255,255,255,1.00) 0%, rgba(198,198,198,0.73) 100%);
+    -webkit-box-shadow: 2px 3px 6px #778DF5;
+    box-shadow: 2px 3px 6px #778DF5;
+}
+.rightColumn {
+    width: 550px;
+    height: 950px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 65px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+.column3 {
+    width: 280px;
+    margin-left: 20px;
+    display: inline-block;
+    height: 456px;
+    float: left;
+    margin-right: 20px;
+}
+
+.leftColumn {
+    width: 300px;
+    height: 950px;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 8px;
+    float: left;
+}
+.contentBox {
+    background-image: -webkit-linear-gradient(284deg, rgba(255,255,255,0.87) 0%, rgba(255,255,255,0.29) 100%);
+    background-image: -moz-linear-gradient(284deg, rgba(255,255,255,0.87) 0%, rgba(255,255,255,0.29) 100%);
+    background-image: -o-linear-gradient(284deg, rgba(255,255,255,0.87) 0%, rgba(255,255,255,0.29) 100%);
+    background-image: linear-gradient(166deg, rgba(255,255,255,0.87) 0%, rgba(255,255,255,0.29) 100%);
+    -webkit-box-shadow: 0px 0px 0px #FFFFFF;
+    box-shadow: 0px 0px 0px #FFFFFF;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #3D6EB8;
+}
+.rightColumn article {
+    width: 250px;
+    margin: 0px;
+    padding: 0px 25px;
+    float: left;
+}
+.navItem {
+    width: 90px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    border: thin double #FFFFFF;
+    border-radius: 30px;
+    width: 120px;
+    padding-top: 0px;
+    margin-left: 12px;
+    margin-right: 15px;
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(117,143,184,0.37) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(117,143,184,0.37) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(255,255,255,1.00) 0%, rgba(117,143,184,0.37) 100%);
+    background-image: linear-gradient(180deg, rgba(255,255,255,1.00) 0%, rgba(117,143,184,0.37) 100%);
+    font-variant: normal;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    margin-bottom: 0px;
+    margin-top: 9px;
+    padding-bottom: 0px;
+    float: left;
+    height: 27px;
+    position: relative;
+    text-align: center;
+}
+.navItem:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    -webkit-box-shadow: 6px 3px 11px;
+    box-shadow: 6px 3px 11px;
+}
+.navigation {
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: -webkit-linear-gradient(270deg, rgba(45,45,45,1.00) 0%, rgba(255,255,255,0.00) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(45,45,45,1.00) 0%, rgba(255,255,255,0.00) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(45,45,45,1.00) 0%, rgba(255,255,255,0.00) 100%);
+    background-image: linear-gradient(180deg, rgba(45,45,45,1.00) 0%, rgba(255,255,255,0.00) 100%);
+    height: 100px;
+    position: fixed;
+    margin-top: -15px;
+    clear: both;
+    
+	
+    
+}
+.navLogo {
+    margin-left: -141px;
+    margin-top: 6px;
+    background-image: -webkit-linear-gradient(270deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.12) 100%);
+    background-image: -moz-linear-gradient(270deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.12) 100%);
+    background-image: -o-linear-gradient(270deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.12) 100%);
+    background-image: linear-gradient(180deg, rgba(255,255,255,0.16) 0%, rgba(255,255,255,0.12) 100%);
+    border-radius: 31px;
+    float: left;
+    display: inline-block;
+}
+.singleColumn {
+    width: 960px;
+    height: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    margin-top: 42%;
+    background-color: #C7C7C7;
+    -webkit-box-shadow: 5px 3px 15px 10px #FFFFFF;
+    box-shadow: 5px 3px 15px 10px #FFFFFF;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    bottom: 1vmax;
+    left: 1vmax;
+}
+.sidePic {
+    width: 100%;
+}
+.column3 p {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.contentBox p {
+    color: #070707;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+#form {
+    border: thick outset #000000;
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.contentBox article h3 {
+    color: #B5282A;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-variant: normal;
+    font-style: italic;
+    font-size: xx-large;
+    -webkit-box-shadow: 2px 10px 50px 7px #E4ED82;
+    box-shadow: 2px 10px 50px 7px #E4ED82;
+}
+
+article #form p {
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    height: auto;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #1E2D23;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+.singleColumn.contentBox img {
+    width: 960px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen {
+}
